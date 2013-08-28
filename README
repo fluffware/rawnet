@@ -1,4 +1,9 @@
 This program lets you interactively send and receive UDP and TCP traffic.
 
-Data can either be entered as hexadecimal numbers or strings enclosed in	'"'. The to methods may be mixed as needed.
+Data can either be entered as hexadecimal numbers or strings enclosed in	'"'. The two methods may be mixed as needed.
+
+To build from git use:
+autoreconf -i
+configure
+make
 
